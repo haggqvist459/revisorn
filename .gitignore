@@ -1,0 +1,66 @@
+Skip to content
+Product
+Solutions
+Open Source
+Pricing
+Search
+Sign in
+Sign up
+coding-in-public
+/
+react-router-budget-app
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+react-router-budget-app/.gitignore
+@coding-in-public
+coding-in-public init commit
+Latest commit fbe9eee 3 weeks ago
+ History
+ 1 contributor
+24 lines (22 sloc)  253 Bytes
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+react-router-budget-app/.gitignore at lesson-1 · coding-in-public/react-router-budget-app · GitHub
