@@ -23,6 +23,6 @@ export const createBudget = ({name, amount}) => {
         colour: generateRandomColour()
     }
 
-    const existingBudget = fetchData("budgets") ?? [];
-    return localStorage.setItem("budgets", JSON.stringify([...existingBudget, newItem])); 
+    const existingBudgets = fetchData("budgets") ?? [];
+    return localStorage.setItem("budgets", JSON.stringify([...existingBudgets, newItem])); 
 }

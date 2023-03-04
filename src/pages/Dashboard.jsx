@@ -28,13 +28,13 @@ export async function dashboardAction({ request }) {
         }
     }
 
-    if (_action === 'createBudget') {
+    if (_action === "createBudget") {
         try {
             createBudget({
                 name: values.newBudget,
                 amount: values.newBudgetAmount
             }) 
-            toast.success("Budget Created")
+            return toast.success("Budget Created")
         } catch (error) {
             throw new Error("Error creating budget.")
         }

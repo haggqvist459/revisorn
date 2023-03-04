@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     //all children gets placed in <Outlet/>
     children: [ 
       {
-        path: "/",
+        index: true,
         element: <Dashboard/>,
         loader: dashboardLoader,
         action: dashboardAction,
