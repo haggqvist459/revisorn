@@ -12,9 +12,9 @@ const Intro = () => {
     <div className='intro'>
         <div>
             <h1>
-                Take Control of <span className="accent">Your Money</span>
+              <span className="accent">The Accountant</span>
             </h1>
-            <p>Personal budgeting is the secret to financial freedom. Start your journey today</p>
+            <p>Looks after your budgets so <span className="accent">You</span> don't have to</p>
             <Form method="post">
               <input type="text" name="userName" required placeholder='What is your name?' aria-label='your name' autoComplete='given-name'/>
               <input type='hidden' name='_action' value='newUser'/>
