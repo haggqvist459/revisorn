@@ -14,8 +14,8 @@ import BudgetPage, { budgetAction, budgetLoader } from './pages/BudgetPage';
 import { Error } from './pages/Error';
 
 //actions 
-import { logoutAction } from './actions/logout';
-import { deleteBudget } from './actions/delete';
+import logoutAction from './actions/logout';
+import deleteBudget from './actions/delete';
 
 
 
